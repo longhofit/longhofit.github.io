@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Own Site</title>
+    <link rel="stylesheet" href="slideshow.css">
+</head>
+
+<body>
+    <div class="slide-container">
+        <div class="slide">
+            <img id="center" src="image/taylor1.jpg" alt="pic1" width="425" height="425">
+        </div>
+        <div class="slide">
+            <img id="center" src="image/taylor2.jpg" alt="pic2" width="425" height="425">
+        </div>
+        <div class="slide">
+            <img id="center" src="image/taylor3.jpg" alt="pic3" width="425" height="425">
+        </div>
+        <div class="slide">
+                <img id="center" src="image/taylor4.jpg" alt="pic4" width="425" height="425">
+        </div>
+        <div class="slide">
+                <img  id="center" src="image/taylor5.jpg" alt="pic5" width="425" height="425">
+        </div>
+        <div class="icon" >
+            <img id="icon2" class="noboder" src="image/play.png"   alt="play/pause" onclick="changeStatus()"   width="50" height="50">
+        </div>
+        <div class="small-image">
+            <img onclick="shows(1)" style="margin: 5px;" src="image/taylor1.jpg" alt="pic1" width="100" height="100">
+            <img onclick="shows(2)" style="margin: 5px;" src="image/taylor2.jpg" alt="pic2" width="100" height="100">
+            <img onclick="shows(3)" style="margin: 5px;" src="image/taylor3.jpg" alt="pic3" width="100" height="100">
+            <img onclick="shows(4)" style="margin: 5px;" src="image/taylor4.jpg" alt="pic4" width="100" height="100">
+            <img onclick="shows(5)" style="margin: 5px;" src="image/taylor5.jpg" alt="pic5" width="100" height="100">
+        </div>
+    </div>
+   <script src="slideshow.js"> </script>
+</body>
+
+</html>
