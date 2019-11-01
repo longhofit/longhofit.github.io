@@ -1,125 +1,156 @@
 <!DOCTYPE html>
 <html>
-<head >
-  
-<title>Lê Long Hồ</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-  * {
-  box-sizing: border-box;
-}
-  .table{
-    
-  }
-.menu {
-  float: left;
-  width: 20%;
-}
-.menuitem {
-  padding: 8px;
-  margin-top: 7px;
-  border-bottom: 1px solid #f1f1f1;
-}
-.main {
-  float: left;
-  width: 100%;
-  padding: 0 20px;
-  overflow: hidden;
-}
-.right {
-  background-color: lightblue;
-  float: left;
-  width: 20%;
-  padding: 10px 15px;
-  margin-top: 7px;
-}
 
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  .main {
-    width: 80%;
-    padding: 0;
-  }
-  .right {
-    width: 100%;
-  }
-}
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
-  }
-  .table {
-  width:50%
-  }
-}
-  @media only screen and (max-width:700px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
-  }
-    .table {
-  width:50%
-  }
-}
+<head>
+
+  <title>Lê Long Hồ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .table {}
+
+    .menu {
+      float: left;
+      width: 20%;
+    }
+
+    .menuitem {
+      padding: 8px;
+      margin-top: 7px;
+      border-bottom: 1px solid #f1f1f1;
+    }
+
+    .main {
+      float: left;
+      width: 100%;
+      padding: 0 20px;
+      overflow: hidden;
+    }
+
+    .right {
+      background-color: lightblue;
+      float: left;
+      width: 20%;
+      padding: 10px 15px;
+      margin-top: 7px;
+    }
+
+    @media only screen and (max-width:800px) {
+
+      /* For tablets: */
+      .main {
+        width: 80%;
+        padding: 0;
+      }
+
+      .right {
+        width: 100%;
+      }
+    }
+
+    @media only screen and (max-width:500px) {
+
+      /* For mobile phones: */
+      .menu,
+      .main,
+      .right {
+        width: 100%;
+      }
+
+      .table {
+        width: 50%
+      }
+    }
+
+    @media only screen and (max-width:700px) {
+
+      /* For mobile phones: */
+      .menu,
+      .main,
+      .right {
+        width: 100%;
+      }
+
+      .table {
+        width: 50%
+      }
+    }
+
     @media only screen and (max-width:900px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
-  }
-}
 
-  p {
-    text-indent: 30px;
-  }
-  table {
-  font-size:100%;
-  font-family: courier, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  text-align: center;
-  font-weight:bold;
-    margin:2px;
-}
-  th {
-    color:black;
-    background-color: #F0F8FF;
-    font-size:150%;
-  }
-td, th {
-  border: 1px solid grey;
-  padding: 8px;
-}
+      /* For mobile phones: */
+      .menu,
+      .main,
+      .right {
+        width: 100%;
+      }
+    }
 
-  body{
-      color:white;
-      margin:0px;
-      background-color:#8B8378;
+    p {
+      text-indent: 30px;
+    }
+
+    table {
+      font-size: 100%;
+      font-family: courier, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      text-align: center;
+      font-weight: bold;
+      margin: 2px;
+    }
+
+    th {
+      color: black;
+      background-color: #F0F8FF;
+      font-size: 150%;
+    }
+
+    td,
+    th {
+      border: 1px solid grey;
+      padding: 8px;
+    }
+
+    body {
+      color: white;
+      margin: 0px;
+      background-color: #8B8378;
       background-image: url("https://cdn.glitch.com/680a2586-42f2-4a66-bb23-41ce31f24ffa%2Fthumbnails%2Fblack-background_00313351.jpg?1569440883503");
     }
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;}
 
-   #header{
-      background-color:#09090a;
-      color:#8b95e0;
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
-    #content{
-      font-size:20px;
-      margin:30px;
-      line-height:1.5;
+
+    #header {
+      background-color: #09090a;
+      color: #8b95e0;
     }
-    #footer{
-      background-color:#ddd;
-      font-size:15px;
-      text-align:center;
-      padding:10px;
+
+    #content {
+      font-size: 20px;
+      margin: 30px;
+      line-height: 1.5;
+    }
+
+    #footer {
+      background-color: #ddd;
+      font-size: 15px;
+      text-align: center;
+      padding: 10px;
     }
 
     a:link {
-      color: white; 
+      color: white;
 
     }
 
@@ -134,110 +165,143 @@ td, th {
     }
 
 
-    .title1{
-      font-size:30px;
-      text-align:center;
-      padding-top:15px;
+    .title1 {
+      font-size: 30px;
+      text-align: center;
+      padding-top: 15px;
     }
-    .title2{
-      text-align:center;
-      font-size:18px;
-      padding-top:5px;
-      padding-bottom:15px;
+
+    .title2 {
+      text-align: center;
+      font-size: 18px;
+      padding-top: 5px;
+      padding-bottom: 15px;
     }
-</style>
+  </style>
 </head>
+
 <body>
-  <div id="header" >
+  <div id="header">
     <div class="title1">Chổ này là header của site</div>
     <div class="title2">Site tạp nham @@</div>
   </div>
-  <div id="content"  >
+  <div id="content">
     <div class="box">
-        <a href="slideshow.html"><b>Bài tập slideshow</b></a><br>
-        <a href="contact.html"><b>Bài tập validate form</b></a><br>
+      <a href="slideshow.html"><b>Bài tập slideshow</b></a><br>
+      <a href="contact.html"><b>Bài tập validate form</b></a><br>
     </div>
-   
-    <div style="overflow-x:auto;"> 
-      <table>
-      <caption style="font-size:200%"><b>Schedule</b></caption>
-  <tr>
-    <th>Time</th>
-    <th>Monday</th>
-    <th>Tuesday</th>
-    <th>Wednesday</th>
-    <th>Thursday</th>
-    <th>Friday</th>
-    <th>Saturday</th>
-    <th>Sunday</th>
-  </tr>
-  <tr>
-    <th>9h20-12h</th>
-    <td>Hệ điều hành F301</td>
-    <td>Cơ sở trí tuệ nhân tạo C43</td>
-    <td>Nhập môn phân tích độ phức tạp thuật toán C42</td>
-    <td>Phát triển ứng dụng web C33</td>
-    <td><pre> <img src="https://i.imgur.com/80zJBw3.gif" width="100" height="100" alt="Ảnh bựa"></pre></td>
-    <td>Dạy tin học(9h-11h)</td>
-    <td>Dạy tin học(9h-11h)</td>
-  </tr>
-  <tr>
-    <th>12h-3h20</th>
-    <td >Thực hành toán tổ hợp I62</td>
-    <td><pre> <img src="https://i.imgur.com/Hpzdi9q.gif" width="100" height="100" alt="Ảnh bựa"></pre></td>
-    <td>Nhập môn công nghệ phần mềm C43</td>
-    <td>Toán tổ hợp C43</td>
-    <td><pre> <img src="https://i.imgur.com/XUnY9lX.gif" width="100" height="100" alt="Ảnh bựa"></pre></td>
-    <td><pre> <img src="https://i.imgur.com/2tqszQs.gif" width="100" height="100" alt="Ảnh bựa"></pre></td>
-     <td><pre> <img src="https://i.imgur.com/Guc25OG.gif" width="100" height="100" alt="Ảnh bựa"></pre></td>
-  </tr>
-  <tr>
-    <th>2h-4h</th>
-    <td><pre> <img src="https://i.imgur.com/CO4kUdK.gif" width="100" height="100" alt="Ảnh bựa"></pre></td>
-    <td><pre> <img src="https://i.imgur.com/Rt3rmaF.gif" width="100" height="100" alt="Ảnh bựa"></pre></td>
-    <td><pre> <img src="https://i.imgur.com/luIiH6q.gif" width="100" height="100" alt="Ảnh bựa"></pre></td>
-    <td><pre> <img src="https://i.imgur.com/dwxe77L.gif" width="100" height="100" alt="Ảnh bựa"></pre></td>
-    <td><pre> <img src="https://i.imgur.com/hsWKZZj.gif" width="100" height="100" alt="Ảnh bựa"></pre></td>
-    <td>Dạy lý</td>
-    <td><pre> <img src="https://i.imgur.com/i0qkGOG.gif" width="100" height="100" alt="Ảnh bựa"></pre></td>
-  </tr>
-</table>
+
+    <div class="table-responsive">
+      <table  class="table">
+        <caption style="font-size:200%"><b>Schedule</b></caption>
+        <tr>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+          <th>Sunday</th>
+        </tr>
+        <tr>
+          <th>9h20-12h</th>
+          <td>Hệ điều hành F301</td>
+          <td>Cơ sở trí tuệ nhân tạo C43</td>
+          <td>Nhập môn phân tích độ phức tạp thuật toán C42</td>
+          <td>Phát triển ứng dụng web C33</td>
+          <td>
+      
+          </td>
+          <td>Dạy tin học(9h-11h)</td>
+          <td>Dạy tin học(9h-11h)</td>
+        </tr>
+        <tr>
+          <th>12h-3h20</th>
+          <td>Thực hành toán tổ hợp I62</td>
+          <td>
+           
+          </td>
+          <td>Nhập môn công nghệ phần mềm C43</td>
+          <td>Toán tổ hợp C43</td>
+          <td>
+           
+          </td>
+          <td>
+           
+          </td>
+          <td>
+          
+          </td>
+        </tr>
+        <tr>
+          <th>2h-4h</th>
+          <td>
+           
+          </td>
+          <td>
+        
+          </td>
+          <td>
+           
+          </td>
+          <td>
+          
+          </td>
+          <td>
+           
+          </td>
+          <td>Dạy lý</td>
+          <td>
+     
+          </td>
+        </tr>
+      </table>
     </div>
-    
-<pre>
+
+    <pre>
 
 </pre>
-<div class="main">
-  <p>
-    <b>NMCNPM</b> nếu thầy Khoa dạy sẽ hay đó, với vì môn đó là môn tiên quyết. Không học thì sẽ không đkí đc môn PTTKPM <br>
+    <div class="main">
+      <p>
+        <b>NMCNPM</b> nếu thầy Khoa dạy sẽ hay đó, với vì môn đó là môn tiên quyết. Không học thì sẽ không đkí đc môn
+        PTTKPM <br>
 
-Không biết phải bạn học KHTN không, mình thấy môn CS nào mình từng học đều đáng học hết.
-  </p>
-  <p>
-    <b>Cơ sở trí tuệ nhân tạo:</b> Làm bài tập hằng tuần, 3 đồ án thực hành(có đồ án Lego khá vui) + thi cuối kì. Mình sẽ coi trước những video này ở nhà, sau đó lên nghe thầy giảng
-https://ocw.mit.edu/courses/electric...nce-fall-2010/<br>
-Hơi khó hiểu là môn này học song song với môn Toán tổ hợp, nếu học Toán tổ hợp trước rồi học môn này sẽ tốt hơn
-  </p>
-  <p>
-    <b>Máy học:</b>Trước mỗi buổi học coi 1 video trong list này<br>
-youtube.com/watch?v=mbyG85GZ0PI&list=PLD63A284B7615313A<br>
-Sau đó thầy sẽ giảng lại trên lớp, sau mỗi buổi học đặt 1 câu hỏi và trả lời 1 câu hỏi cho bạn khác, đồ án cuối kì là nhận dạng cũng không khó lắm. Môn này chăm chỉ là điểm cao<br>
-  </p>
-  <p>
-  <b>Phân tích độ phức tạp thuật toán:</b> Cái tên nói lên tất cả rồi, môn này toán hơi nhiều, nhưng không khó lắm, mình thích
-    thầy dạy vì viết bảng chứ không phải dùng slide rồi skip skip như mấy môn khác chóng cả mặt. Với CS hình như môn này bắt buộc thì phải<br></p>
-  <p>
-    <b>Phân tích thiết kế giải thuật:</b>Thật ra giải thuật mình cũng không phải giỏi lắm, môn này cày sml luôn mà tổng kết được có 8.0
-Khó lấy điểm so với 3 môn trên, nhưng vẫn là môn đáng học, vì xong môn này coi như bạn cover được 70% loại thuật toán rồi. Học tốt coi như chấp mọi thể loại phỏng vấn sau này. <br>
+        Không biết phải bạn học KHTN không, mình thấy môn CS nào mình từng học đều đáng học hết.
+      </p>
+      <p>
+        <b>Cơ sở trí tuệ nhân tạo:</b> Làm bài tập hằng tuần, 3 đồ án thực hành(có đồ án Lego khá vui) + thi cuối kì.
+        Mình sẽ coi trước những video này ở nhà, sau đó lên nghe thầy giảng
+        https://ocw.mit.edu/courses/electric...nce-fall-2010/<br>
+        Hơi khó hiểu là môn này học song song với môn Toán tổ hợp, nếu học Toán tổ hợp trước rồi học môn này sẽ tốt hơn
+      </p>
+      <p>
+        <b>Máy học:</b>Trước mỗi buổi học coi 1 video trong list này<br>
+        youtube.com/watch?v=mbyG85GZ0PI&list=PLD63A284B7615313A<br>
+        Sau đó thầy sẽ giảng lại trên lớp, sau mỗi buổi học đặt 1 câu hỏi và trả lời 1 câu hỏi cho bạn khác, đồ án cuối
+        kì là nhận dạng cũng không khó lắm. Môn này chăm chỉ là điểm cao<br>
+      </p>
+      <p>
+        <b>Phân tích độ phức tạp thuật toán:</b> Cái tên nói lên tất cả rồi, môn này toán hơi nhiều, nhưng không khó
+        lắm, mình thích
+        thầy dạy vì viết bảng chứ không phải dùng slide rồi skip skip như mấy môn khác chóng cả mặt. Với CS hình như môn
+        này bắt buộc thì phải<br></p>
+      <p>
+        <b>Phân tích thiết kế giải thuật:</b>Thật ra giải thuật mình cũng không phải giỏi lắm, môn này cày sml luôn mà
+        tổng kết được có 8.0
+        Khó lấy điểm so với 3 môn trên, nhưng vẫn là môn đáng học, vì xong môn này coi như bạn cover được 70% loại thuật
+        toán rồi. Học tốt coi như chấp mọi thể loại phỏng vấn sau này. <br>
 
-Công nghệ tri thức hay Thị giác máy tính thì mình chưa học được môn nào  <br>
-Bạn lên group tìm nhóm Ôn thi học kì K16 có đầy đủ tài liệu + đề thi. Tham khảo trong đó
-  </p>
+        Công nghệ tri thức hay Thị giác máy tính thì mình chưa học được môn nào <br>
+        Bạn lên group tìm nhóm Ôn thi học kì K16 có đầy đủ tài liệu + đề thi. Tham khảo trong đó
+      </p>
 
 
-</div>
+    </div>
 
-<a class="main" href="https://www.facebook.com/profile.php?id=100021846152085"><img  src="https://cdn.glitch.com/680a2586-42f2-4a66-bb23-41ce31f24ffa%2F6415e06920efcab193fe.jpg?v=1568821074447" width="100" height="100" alt="Thẻ Sinh Viên"></a>
+    <a class="main" href="https://www.facebook.com/profile.php?id=100021846152085"><img
+        src="https://cdn.glitch.com/680a2586-42f2-4a66-bb23-41ce31f24ffa%2F6415e06920efcab193fe.jpg?v=1568821074447"
+        width="100" height="100" alt="Thẻ Sinh Viên"></a>
 
   </div>
   <div class="main" id="footer" style="color:black;"> Copyright &copy;2000-2019, Le Long Ho</div>
