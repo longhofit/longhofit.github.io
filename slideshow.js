@@ -30,11 +30,11 @@ function changeStatus() {
     switch (count % 2) {
         case 0:
             show();
-            document.getElementById("icon2").src = "image/pause.png"
+            document.getElementById("icon2").src = "image/pause.png";
             break;
         case 1:
             pause();
-            document.getElementById("icon2").src = "image/play.png"
+            document.getElementById("icon2").src = "image/play.png";
             break;
     }
     count++;
