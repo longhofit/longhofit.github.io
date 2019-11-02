@@ -60,8 +60,12 @@ img{
     {
         width: 50px;
     }
+    iframe
+    {
+        height: 100px;
+    }
 }
-/* Dành cho máy tính bảng */
+
 
 
 
