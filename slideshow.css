@@ -49,4 +49,6 @@ img{
 }
 .border-dotted{
     border-style: dotted;
+    max-width: 100%;
+    height: auto;
    }
