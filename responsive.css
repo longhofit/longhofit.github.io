@@ -168,3 +168,44 @@ img{
 {
   justify-self: flex-end;
 }
+
+
+
+.noboder .bx-wrapper {
+  top:5%;
+  left:0;
+  box-shadow: none;
+  background: transparent;
+  border: none;
+  margin-bottom:20px ;
+}
+.color
+{
+  background-color:rgb(247, 238, 225);
+}
+
+.w-20 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20% !important;
+          flex: 0 0 20% !important;
+  max-width: 20%;
+}
+
+@media (max-width: 600px) { 
+
+  .w-20 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50% !important;
+            flex: 0 0 50% !important;
+    max-width: 50%;
+  }
+}
+@media (min-width: 601px) and (max-width:924px)  { 
+
+  .w-20 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33% !important;
+            flex: 0 0 33% !important;
+    max-width: 33%;
+  }
+}
