@@ -10,6 +10,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
 
@@ -23,22 +25,23 @@
 </head>
 
 <body>
-    
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#"> <img src="image/logoo.png" width="50px" height="50px" alt="logo"></a>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <a class="navbar-brand" href="#"> <img src="image/logoo.png" alt="logo"></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm sản phẩm, danh mục" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm sản phẩm, danh mục"
+                    aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
             <ul class="navbar-nav mr-auto">
-             
+
                 <li class="nav-item">
                     <a class="nav-link" href="#">Giỏ hàng</a>
                 </li>
@@ -52,51 +55,47 @@
                         Danh mục
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Tất cả</a>
-                        <a class="dropdown-item" href="#">Điện tử</a>
-                        <a class="dropdown-item" href="#">Thú cưng</a>
-                        <a class="dropdown-item" href="#">Đồ gia dụng</a>
-                        <a class="dropdown-item" href="#">Nhạc cụ</a>
+                        <a class="dropdown-item" href="laptop.html">Tất cả</a>
+                        <a class="dropdown-item" href="laptop.html">Điện tử</a>
+                        <a class="dropdown-item" href="laptop.html">Thú cưng</a>
+                        <a class="dropdown-item" href="laptop.html">Đồ gia dụng</a>
+                        <a class="dropdown-item" href="laptop.html">Nhạc cụ</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Các sản phẩm khác</a>
+                        <a class="dropdown-item" href="laptop.html">Các sản phẩm khác</a>
                     </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Đăng nhập</a>
                 </li>
             </ul>
-           
+
         </div>
     </nav>
-    <div class="d-flex justify-content-center color">
+    <div class="cata">
+        <div class="d-flex justify-content-center color ">
 
-        <div class="d-inline m-1">
-            <a class="text-dark" href="laptop.html"> <i class="fa fa-camera-retro" aria-hidden="true"></i>
-                Laptop - Thiết bị IT</a>
-        </div>
-        <div class="d-inline m-1">
-            |
-        </div>
-        <div class="d-inline m-1">
-            <a class="text-dark" href="laptop.html"> <i class="fas fa-paw"></i> Thú cưng</a>
-        </div>
-        <div class="d-inline m-1">
-            |
-        </div>
-        <div class="d-inline m-1">
-            <a class="text-dark" href="laptop.html"><i class="fas fa-male"></i> Thời trang</a>
-        </div>
-        <div class="d-inline m-1">
-            |
-        </div>
-        <div class="d-inline m-1">
-            <a class="text-dark" href="laptop.html"><i class="fab fa-discord"></i> Đồ gia dụng</a>
-        </div>
-        <div class="d-inline m-1">
-            |
-        </div>
-        <div class="d-inline m-1">
-            <a class="text-dark" href="laptop.html"><i class="fas fa-music"></i> Nhạc cụ</a>
+            <div class="d-inline m-1 border-right border-dark">
+                <a class="text-dark m-2" href="laptop.html"> <i class="fa fa-camera-retro" aria-hidden="true"></i>
+                    Laptop - Thiết bị IT</a>
+            </div>
+
+            <div class="d-inline m-1 border-right border-dark">
+                <a class="text-dark m-2" href="laptop.html"> <i class="fas fa-paw"></i> Thú
+                    cưng</a>
+            </div>
+
+            <div class="d-inline m-1 border-right border-dark">
+                <a class="text-dark m-2" href="laptop.html"><i class="fas fa-male"></i> Thời
+                    trang</a>
+            </div>
+
+            <div class="d-inline m-1 border-right border-dark">
+                <a class="text-dark m-2" href="laptop.html"><i class="fab fa-discord"></i> Đồ gia dụng</a>
+            </div>
+
+            <div class="d-inline m-1 ">
+                <a class="text-dark " href="laptop.html"><i class="fas fa-music"></i> Nhạc cụ</a>
+            </div>
         </div>
     </div>
     <div class="noboder color">
@@ -106,7 +105,7 @@
             <div> <img class="img-fluid" src="image/2.jfif"></div>
             <div> <img class="img-fluid" src="image/bca17077b6aaee097c0eb1b743322a81.png"></div>
             <div> <img class="img-fluid" src="image/4598160e78baa6bdfcc6359da13d1b2d.jfif"></div>
-            
+
         </div>
     </div>
 
@@ -116,434 +115,455 @@
 
 
 
-            <div class="col-12 ml-1 ">
-                <span class="font-weight-normal "> Top 5 sản phẩm gần kết thúc </span>
+
+            <div class="col-12  ">
+                <h4>Top 5 sản phẩm gần kết thúc</h4>
+            </div>
+            <div class="col-12 mb-2">
+                <sub>Xem chi tiết</sub> <br>
+            </div>
+
+            <div class="row">
+
+                <div class="col-12">
+                    <div class="responsive border">
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
+
+                            <a class="" href="product_detail.html"
+                                style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
+                                <img class="img-fluid" src="image/1.jpg" alt="">
+                                <span class="text-dark ">Chuột Không Dây Logitech M330</span>
+                                <span class="imgTit cd text-danger"></span>
+                                <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true">
+                                        20.000.000₫</i>
+                                </span>
+                                <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
+
+                           
+                            </a>
+
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
+
+                            <a class="" href="product_detail.html"
+                                style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
+                                <img class="img-fluid" src="image/2.jpg" alt="">
+                                <span class="text-dark ">Chuột Không Dây Logitech M330</span>
+                                <span class="imgTit cd text-danger"></span>
+                                <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true">
+                                        20.000.000₫</i>
+                                </span>
+                                <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
+
+                               
+                            </a>
+
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
+
+                            <a class="" href="product_detail.html"
+                                style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
+                                <img class="img-fluid" src="image/3.jpg" alt="">
+                                <span class="text-dark ">Chuột Không Dây Logitech M330</span>
+                                <span class="imgTit cd text-danger"></span>
+                                <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true">
+                                        20.000.000₫</i>
+                                </span>
+                                <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
+
+                               
+                            </a>
+
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
+
+                            <a class="" href="product_detail.html"
+                                style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
+                                <img class="img-fluid" src="image/4.jpg" alt="">
+                                <span class="text-dark ">Chuột Không Dây Logitech M2330</span>
+                                <span class="imgTit cd text-danger"></span>
+                                <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true">
+                                        20.000.000₫</i>
+                                </span>
+                                <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
+
+                               
+                            </a>
+
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
+
+                            <a class="" href="product_detail.html"
+                                style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
+                                <img class="img-fluid" src="image/6.jpg" alt="">
+                                <span class="text-dark ">Chuột Không Dây Logitech M330</span>
+                                <span class="imgTit cd text-danger"></span>
+                                <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true">
+                                        20.000.000₫</i>
+                                </span>
+                                <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
+
+                               
+                            </a>
+
+                        </div>
+
+
+                    </div>
+                </div>
 
             </div>
-            <div class="col-12 ml-1 ">
-                <sub>Xem chi tiết</sub>
+
+
+        </div>
+        <div>
+
+            <div class="col-12  ">
+                <h4> Top 5 sản phẩm có nhiều lượt ra giá nhất</h4>
             </div>
-            <div class=" col-">
-
+            <div class="col-12 mb-2">
+                <sub>Xem chi tiết</sub> <br>
             </div>
-            <div class="d-flex flex-wrap m-2">
+            <div class="row">
 
-                <div class="col-6 card card-body w-20">
+                <div class="col-12">
+                    <div class="responsive">
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
 
-                    <a class="" href="product_detail.html"
-                        style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
-                        <img class="img-fluid" src="image/6.jpg" alt="">
-                        <span class="text-dark ">Chuột Không Dây Logitech M330</span>
-                        <span class="imgTit cd text-danger"></span>
-                        <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
-                        </span>
-                        <small class="text-dark">15 lượt ra giá</small>
-                        <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                        <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
+                            <a class="" href="product_detail.html"
+                                style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
+                                <img class="img-fluid" src="image/1.jpg" alt="">
+                                <span class="text-dark ">Chuột Không Dây Logitech M330</span>
+                                <span class="imgTit cd text-danger"></span>
+                                <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true">
+                                        20.000.000₫</i>
+                                </span>
+                              
+                                <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
 
-                        <small class="text-dark">Current winner:
-                            <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
-                    </a>
+                        
+                            </a>
+
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
+
+                            <a class="" href="product_detail.html"
+                                style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
+                                <img class="img-fluid" src="image/2.jpg" alt="">
+                                <span class="text-dark ">Chuột Không Dây Logitech M330</span>
+                                <span class="imgTit cd text-danger"></span>
+                                <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true">
+                                        20.000.000₫</i>
+                                </span>
+                               
+                                <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
+
+                            
+                            </a>
+
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
+
+                            <a class="" href="product_detail.html"
+                                style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
+                                <img class="img-fluid" src="image/3.jpg" alt="">
+                                <span class="text-dark ">Chuột Không Dây Logitech M330</span>
+                                <span class="imgTit cd text-danger"></span>
+                                <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true">
+                                        20.000.000₫</i>
+                                </span>
+                              
+                                <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
+
+                          
+                            </a>
+
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
+
+                            <a class="" href="product_detail.html"
+                                style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
+                                <img class="img-fluid" src="image/4.jpg" alt="">
+                                <span class="text-dark ">Chuột Không Dây Logitech M2330</span>
+                                <span class="imgTit cd text-danger"></span>
+                                <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true">
+                                        20.000.000₫</i>
+                                </span>
+                        
+                                <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
+
+                        
+                            </a>
+
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
+
+                            <a class="" href="product_detail.html"
+                                style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
+                                <img class="img-fluid" src="image/6.jpg" alt="">
+                                <span class="text-dark ">Chuột Không Dây Logitech M330</span>
+                                <span class="imgTit cd text-danger"></span>
+                                <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true">
+                                        20.000.000₫</i>
+                                </span>
+                            
+                                <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
+
+                         
+                            </a>
+
+                        </div>
 
 
+                    </div>
                 </div>
-                <div class="col-6 card card-body w-20">
-                    <a class="" href="#"
-                        style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
-                        <img class="img-fluid" src="image/4.jpg" alt="">
-                        <span class="text-dark ">Chuột Không Dây Logitech M330</span>
-                        <span class="imgTit cd text-danger"></span>
-                        <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
-                        </span>
-                        <small class="text-dark">15 lượt ra giá</small>
-                        <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                        <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
 
-                        <small class="text-dark">Current winner:
-                            <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
-                    </a>
-                </div>
-                <div class="col-6 card card-body w-20">
-                    <a class="" href="#"
-                        style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
-                        <img class="img-fluid" src="image/2.jpg" alt="">
-                        <span class="text-dark ">Chuột Không Dây Logitech M330</span>
-                        <span class="imgTit cd text-danger"></span>
-                        <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
-                        </span>
-                        <small class="text-dark">15 lượt ra giá</small>
-                        <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                        <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
-
-                        <small class="text-dark">Current winner:
-                            <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
-                    </a>
-                </div>
-                <div class="col-6 card card-body w-20">
-                    <a class="" href="#"
-                        style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
-                        <img class="img-fluid" src="image/1.jpg" alt="">
-                        <span class="text-dark ">Chuột Không Dây Logitech M330</span>
-                        <span class="imgTit cd text-danger"></span>
-                        <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
-                        </span>
-                        <small class="text-dark">15 lượt ra giá</small>
-                        <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                        <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
-
-                        <small class="text-dark">Current winner:
-                            <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
-                    </a>
-                </div>
-                <div class="col-6 card card-body w-20">
-                    <a class="" href="#"
-                        style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
-                        <img class="img-fluid" src="image/3.jpg" alt="">
-                        <span class="text-dark ">Chuột Không Dây Logitech M330</span>
-                        <span class="imgTit cd text-danger"></span>
-                        <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
-                        </span>
-                        <small class="text-dark">15 lượt ra giá</small>
-                        <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                        <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
-
-                        <small class="text-dark">Current winner:
-                            <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
-                    </a>
-                </div>
             </div>
         </div>
         <div>
-            <div class="col-12 ml-1 ">
-                <span class="font-weight-normal "> Top 5 sản phẩm có nhiều lượt ra giá nhất </span>
 
+            <div class="col-12  ">
+                <h4> Top 5 sản phẩm có giá cao nhất</h4>
             </div>
-            <div class="col-12 ml-1 ">
-                <sub>Xem chi tiết</sub>
+            <div class="col-12 mb-2">
+                <sub>Xem chi tiết</sub> <br>
             </div>
-            <div class="d-flex flex-wrap m-2">
+            <div class="row">
 
-                <div class="col-6 card card-body w-20">
+                <div class="col-12">
+                    <div class="responsive">
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
 
-                    <a class="" href="#"
-                        style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
-                        <img class="img-fluid" src="image/1.jpg" alt="">
-                        <span class="text-dark ">Chuột Không Dây Logitech M330</span>
-                        <span class="imgTit cd text-danger"></span>
-                        <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
-                        </span>
-                        <small class="text-dark">15 lượt ra giá</small>
-                        <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                        <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
+                            <a class="" href="product_detail.html"
+                                style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
+                                <img class="img-fluid" src="image/1.jpg" alt="">
+                                <span class="text-dark ">Chuột Không Dây Logitech M330</span>
+                                <span class="imgTit cd text-danger"></span>
+                                <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true">
+                                        20.000.000₫</i>
+                                </span>
+                              
+                                <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
 
-                        <small class="text-dark">Current winner:
-                            <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
-                    </a>
+                            </a>
+
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
+
+                            <a class="" href="product_detail.html"
+                                style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
+                                <img class="img-fluid" src="image/2.jpg" alt="">
+                                <span class="text-dark ">Chuột Không Dây Logitech M330</span>
+                                <span class="imgTit cd text-danger"></span>
+                                <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true">
+                                        20.000.000₫</i>
+                                </span>
+                               
+                                <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
+
+                        
+                            </a>
+
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
+
+                            <a class="" href="product_detail.html"
+                                style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
+                                <img class="img-fluid" src="image/3.jpg" alt="">
+                                <span class="text-dark ">Chuột Không Dây Logitech M330</span>
+                                <span class="imgTit cd text-danger"></span>
+                                <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true">
+                                        20.000.000₫</i>
+                                </span>
+                             
+                                <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
+
+                      
+                            </a>
+
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
+
+                            <a class="" href="product_detail.html"
+                                style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
+                                <img class="img-fluid" src="image/4.jpg" alt="">
+                                <span class="text-dark ">Chuột Không Dây Logitech M2330</span>
+                                <span class="imgTit cd text-danger"></span>
+                                <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true">
+                                        20.000.000₫</i>
+                                </span>
+                             
+                                <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
+
+                      
+                            </a>
+
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
+
+                            <a class="" href="product_detail.html"
+                                style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
+                                <img class="img-fluid" src="image/6.jpg" alt="">
+                                <span class="text-dark ">Chuột Không Dây Logitech M330</span>
+                                <span class="imgTit cd text-danger"></span>
+                                <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true">
+                                        20.000.000₫</i>
+                                </span>
+                           
+                                <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
+
+                   
+                            </a>
+
+                        </div>
 
 
+                    </div>
                 </div>
-                <div class="col-6 card card-body w-20">
-                    <a class="" href="#"
-                        style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
-                        <img class="img-fluid" src="image/2.jpg" alt="">
-                        <span class="text-dark ">Chuột Không Dây Logitech M330</span>
-                        <span class="imgTit cd text-danger"></span>
-                        <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
-                        </span>
-                        <small class="text-dark">15 lượt ra giá</small>
-                        <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                        <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
 
-                        <small class="text-dark">Current winner:
-                            <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
-                    </a>
-                </div>
-                <div class="col-6 card card-body w-20">
-                    <a class="" href="#"
-                        style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
-                        <img class="img-fluid" src="image/3.jpg" alt="">
-                        <span class="text-dark ">Chuột Không Dây Logitech M330</span>
-                        <span class="imgTit cd text-danger"></span>
-                        <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
-                        </span>
-                        <small class="text-dark">15 lượt ra giá</small>
-                        <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                        <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
-
-                        <small class="text-dark">Current winner:
-                            <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
-                    </a>
-                </div>
-                <div class="col-6 card card-body w-20">
-                    <a class="" href="#"
-                        style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
-                        <img class="img-fluid" src="image/4.jpg" alt="">
-                        <span class="text-dark ">Chuột Không Dây Logitech M330</span>
-                        <span class="imgTit cd text-danger"></span>
-                        <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
-                        </span>
-                        <small class="text-dark">15 lượt ra giá</small>
-                        <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                        <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
-
-                        <small class="text-dark">Current winner:
-                            <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
-                    </a>
-                </div>
-                <div class="col-6 card card-body w-20">
-                    <a class="" href="#"
-                        style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
-                        <img class="img-fluid" src="image/5.jpg" alt="">
-
-                        <span class="text-dark ">Chuột Không Dây Logitech M330</span>
-                        <span class="imgTit cd text-danger"></span>
-                        <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
-                        </span>
-                        <small class="text-dark">15 lượt ra giá</small>
-                        <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                        <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
-
-                        <small class="text-dark">Current winner:
-                            <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="col-12 ml-1 ">
-                <span class="font-weight-normal ">Top 5 sản phẩm có giá cao nhất </span>
-
-
-            </div>
-            <div class="col-12 ml-1">
-                <sub>Xem chi tiết</sub>
-            </div>
-            <div class="d-flex flex-wrap m-2">
-
-                <div class="col-6 card card-body w-20">
-
-                    <a class="" href="#"
-                        style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
-                        <img class="img-fluid" src="image/6.jpg" alt="">
-                        <span class="text-dark ">Chuột Không Dây Logitech M330</span>
-                        <span class="imgTit cd text-danger"></span>
-                        <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
-                        </span>
-                        <small class="text-dark">15 lượt ra giá</small>
-                        <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                        <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
-
-                        <small class="text-dark">Current winner:
-                            <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
-                    </a>
-
-
-                </div>
-                <div class="col-6 card card-body w-20">
-                    <a class="" href="#"
-                        style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
-                        <img class="img-fluid" src="image/5.jpg" alt="">
-                        <span class="text-dark ">Chuột Không Dây Logitech M330</span>
-                        <span class="imgTit cd text-danger"></span>
-                        <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
-                        </span>
-                        <small class="text-dark">15 lượt ra giá</small>
-                        <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                        <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
-
-                        <small class="text-dark">Current winner:
-                            <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
-                    </a>
-                </div>
-                <div class="col-6 card card-body w-20">
-                    <a class="" href="#"
-                        style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
-                        <img class="img-fluid" src="image/4.jpg" alt="">
-                        <span class="text-dark ">Chuột Không Dây Logitech M330</span>
-                        <span class="imgTit cd text-danger"></span>
-                        <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
-                        </span>
-                        <small class="text-dark">15 lượt ra giá</small>
-                        <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                        <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
-
-                        <small class="text-dark">Current winner:
-                            <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
-                    </a>
-                </div>
-                <div class="col-6 card card-body w-20">
-                    <a class="" href="#"
-                        style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
-                        <img class="img-fluid" src="image/3.jpg" alt="">
-                        <span class="text-dark ">Chuột Không Dây Logitech M330</span>
-                        <span class="imgTit cd text-danger"></span>
-                        <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
-                        </span>
-                        <small class="text-dark">15 lượt ra giá</small>
-                        <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                        <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
-
-                        <small class="text-dark">Current winner:
-                            <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
-                    </a>
-                </div>
-                <div class="col-6 card card-body w-20">
-                    <a class="" href="#"
-                        style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
-                        <img class="img-fluid" src="image/2.jpg" alt="">
-                        <span class="text-dark ">Chuột Không Dây Logitech M330</span>
-                        <span class="imgTit cd text-danger"></span>
-                        <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
-                        </span>
-                        <small class="text-dark">15 lượt ra giá</small>
-                        <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                        <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
-
-                        <small class="text-dark">Current winner:
-                            <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
-                    </a>
-                </div>
             </div>
         </div>
 
 
         <div class="row m-2  ">
             <div class="col-12  ">
-                <span class="font-weight-normal "> Tất cả sản phẩm </span>
+                <h4>Tất cả sản phẩm</h4>
             </div>
             <div class="col-12 mb-2">
                 <sub>Xem chi tiết</sub> <br>
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-3 border rounded hvr-glow ">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
 
-                <a class="" href="adasd"
+                <a class="" href="product_detail.html"
                     style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
                     <img class="img-fluid" src="image/5.jpg" alt="">
                     <span class="text-dark ">Chuột Không Dây Logitech M330</span>
                     <span class="imgTit cd text-danger"></span>
-                    <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
+                    <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 20.000.000₫</i>
                     </span>
-                    <small class="text-dark">15 lượt ra giá</small>
-                    <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                    <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
+                   
+                    <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
 
-                    <small class="text-dark">Current winner:
-                        <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
+                 
                 </a>
 
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-3 border rounded hvr-glow ">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
 
-                <a class="" href="adasd"
+                <a class="" href="product_detail.html"
                     style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
                     <img class="img-fluid" src="image/5.jpg" alt="">
                     <span class="text-dark ">Chuột Không Dây Logitech M330</span>
                     <span class="imgTit cd text-danger"></span>
-                    <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
+                    <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 20.000.000₫</i>
                     </span>
-                    <small class="text-dark">15 lượt ra giá</small>
-                    <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                    <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
+                   
+                    <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
 
-                    <small class="text-dark">Current winner:
-                        <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
+                 
                 </a>
 
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-3 border rounded hvr-glow ">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
 
-                <a class="" href="adasd"
+                <a class="" href="product_detail.html"
                     style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
                     <img class="img-fluid" src="image/5.jpg" alt="">
                     <span class="text-dark ">Chuột Không Dây Logitech M330</span>
                     <span class="imgTit cd text-danger"></span>
-                    <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
+                    <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 20.000.000₫</i>
                     </span>
-                    <small class="text-dark">15 lượt ra giá</small>
-                    <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                    <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
+                   
+                    <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
 
-                    <small class="text-dark">Current winner:
-                        <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
+                 
                 </a>
 
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-3 border rounded hvr-glow ">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
 
-                <a class="" href="adasd"
+                <a class="" href="product_detail.html"
                     style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
                     <img class="img-fluid" src="image/5.jpg" alt="">
                     <span class="text-dark ">Chuột Không Dây Logitech M330</span>
                     <span class="imgTit cd text-danger"></span>
-                    <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
+                    <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 20.000.000₫</i>
                     </span>
-                    <small class="text-dark">15 lượt ra giá</small>
-                    <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                    <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
+                   
+                    <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
 
-                    <small class="text-dark">Current winner:
-                        <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
+                 
                 </a>
 
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-3 border rounded hvr-glow ">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
 
-                <a class="" href="adasd"
+                <a class="" href="product_detail.html"
                     style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
                     <img class="img-fluid" src="image/5.jpg" alt="">
                     <span class="text-dark ">Chuột Không Dây Logitech M330</span>
                     <span class="imgTit cd text-danger"></span>
-                    <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
+                    <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 20.000.000₫</i>
                     </span>
-                    <small class="text-dark">15 lượt ra giá</small>
-                    <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                    <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
+                   
+                    <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
 
-                    <small class="text-dark">Current winner:
-                        <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
+                 
                 </a>
 
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-3 border rounded hvr-glow ">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
 
-                <a class="" href="adasd"
+                <a class="" href="product_detail.html"
                     style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
                     <img class="img-fluid" src="image/5.jpg" alt="">
                     <span class="text-dark ">Chuột Không Dây Logitech M330</span>
                     <span class="imgTit cd text-danger"></span>
-                    <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
+                    <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 20.000.000₫</i>
                     </span>
-                    <small class="text-dark">15 lượt ra giá</small>
-                    <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                    <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
+                   
+                    <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
 
-                    <small class="text-dark">Current winner:
-                        <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
+                 
                 </a>
 
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-3 border rounded hvr-glow ">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
 
-                <a class="" href="adasd"
+                <a class="" href="product_detail.html"
                     style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
                     <img class="img-fluid" src="image/5.jpg" alt="">
                     <span class="text-dark ">Chuột Không Dây Logitech M330</span>
                     <span class="imgTit cd text-danger"></span>
-                    <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 1.200.000.000₫</i>
+                    <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 20.000.000₫</i>
                     </span>
-                    <small class="text-dark">15 lượt ra giá</small>
-                    <small class="text-dark"> Ngày đăng: <code>09/09/2019</code></small>
-                    <span class="text-dark"><small>Giá mua ngay: <code>2.000.000.000₫</code></small></span>
+                   
+                    <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
 
-                    <small class="text-dark">Current winner:
-                        <code>longhofit12 (12 <i class="fas fa-star"></i>)</code></small>
+                 
+                </a>
+
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 border  hvr-glow ">
+
+                <a class="" href="product_detail.html"
+                    style="display: flex; justify-content: center;flex-direction: column;align-items: center;">
+                    <img class="img-fluid" src="image/5.jpg" alt="">
+                    <span class="text-dark ">Chuột Không Dây Logitech M330</span>
+                    <span class="imgTit cd text-danger"></span>
+                    <span class="text-dark imgTit"> <i class="fa fa-gavel" aria-hidden="true"> 20.000.000₫</i>
+                    </span>
+                   
+                    <span class="text-dark"><small>Giá mua ngay: <code>200.000.000.000₫</code></small></span>
+
+                 
                 </a>
 
             </div>
 
 
         </div>
-        <nav class="d-flex ml-2 justify-content-end">
+        <nav class="d-flex mr-2 justify-content-end">
             <ul class="pagination">
                 <li class="page-item">
                     <a class="page-link" href="#" aria-label="Previous">
@@ -623,23 +643,7 @@
                     </div>
 
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
 
-                    <ul class="recent-post">
-                        <li>
-                            <h5 class="mb-4 font-weight-bold">Tin mới nhất</h5>
-                        </li>
-                        <li>
-                            <label class="mr-3">28 <br><span>APR</span></label>
-                            <span>ádasddddddddddddddd.</span>
-                        </li>
-                        <li>
-                            <label class="mr-3">29 <br><span>APR</span></label>
-                            <span>ádasdasddddddddddd.</span>
-                        </li>
-
-                    </ul>
-                </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4 ">
                     <h5 class="mb-4  font-weight-bold">Liên hệ với chúng tôi</h5>
                     <div class="input-group">
@@ -727,6 +731,42 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
 
+
+
+    <script>
+        $('.responsive').slick({
+            dots: true,
+            autoplay: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                }
+
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+
+    </script>
+
     <script>
 
         $(document).ready(function () {
@@ -754,38 +794,38 @@
         });
     </script>
     <script>
-            $('.responsive').slick({
-             dots: true,
-             autoplay:true,
-             infinite: false,
-             speed: 300,
-             slidesToShow: 4,
-             slidesToScroll: 1,
-             responsive: [
-               {
-                 breakpoint: 1024,
-                 settings: {
-                   slidesToShow: 3,
-                   slidesToScroll: 3,
-                   infinite: true,
-                   dots: true
-                 }
-               },
-               {
-                 breakpoint: 600,
-                 settings: {
-                   slidesToShow: 2,
-                   slidesToScroll: 2
-                 }
-               }
-              
-               // You can unslick at a given breakpoint now by adding:
-               // settings: "unslick"
-               // instead of a settings object
-             ]
-           });
-           
-           </script>
+        $('.responsive').slick({
+            dots: true,
+            autoplay: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                }
+
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+
+    </script>
 </body>
 
 </html>
