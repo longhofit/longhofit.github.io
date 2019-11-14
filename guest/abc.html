@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+<link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+  <title>Document</title>
+
+</head>
+<body>
+  <div class="row"> 
+
+  <div class="col-12">
+      <div class="responsive">
+          <div class="border">
+              <img class="img-fluid" src="image/1.jpg" alt="">
+            </div> 
+            <div class="border">
+                <img class=" img-fluid" src="image/1.jpg" alt="">
+              </div> 
+              <div class="border">
+                  <img class=" img-fluid" src="image/2.jpg" alt="">
+                </div> 
+                <div class="border">
+                    <img class=" img-fluid" src="image/3.jpg" alt="">
+                  </div> 
+                  <div class="border">
+                    <img class=" img-fluid" src="image/4.jpg" alt="">
+                  </div>
+                  <div class="border">
+                    <img class=" img-fluid" src="image/5.jpg" alt="">
+                  </div>
+                  <div class="border">
+                    <img class=" img-fluid" src="image/6.jpg" alt="">
+                  </div>
+      
+      </div>
+  </div>
+
+  </div>
+  
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+ <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+<script>
+ $('.responsive').slick({
+  dots: true,
+  autoplay:true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    }
+   
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
+</script>
+
+
+</body>
+</html>
